@@ -13,10 +13,8 @@ class ShowViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         view.backgroundColor = colorList.randomElement()!
         print(self, #function)
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
